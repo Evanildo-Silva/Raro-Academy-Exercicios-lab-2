@@ -1,0 +1,101 @@
+.page {
+    background: #4D77FF;
+    height: 1285px;
+}
+
+
+.containerHeader .navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar .lupa {
+    margin: 24px 24px;
+    background-color: #F2FA5A;
+    color: rgb(118,118,118);
+    border: 8px;
+    border-radius: 48px;
+    font-size: 24px;
+    width: 250px;
+    height: 40px;
+}
+
+.navBar .title {
+    color: #F2FA5A;
+    margin: 24px 24px;
+    font-size: 30px;
+}
+
+.ContactsProfile {
+    margin: 24px 24px;
+    border-radius: 10px;
+    background: #56BBF1;
+}
+
+.ContactsProfile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    margin: 8px 0px;
+    display: grid;
+    align-items: center;
+}
+
+.containerProfile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    display: flex;
+    margin: 8px 24px;
+    border-radius: 50%;
+    width: 85px; 
+}
+
+.user {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #F1E1A6;
+}
+
+.profession {
+    margin-bottom: 15px;
+    font-size: 20;
+    color: #F4BBBB;
+}
+
+.containerButtons {
+    display: flex;
+    align-items: center;
+    margin: 8px 24px;
+}
+
+.call{
+    padding: 3px 3px;
+    border: 3px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #F2FA5A;
+    background-color: #9fddff;
+    
+}
+
+.sendEmail {
+    margin-left: 8px;
+    padding: 3px 3px;
+    border: 3px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #F2FA5A; 
+    background-color: #9fddff;
+}
+
+.footerMessage {
+    margin: 24px 24px;
+    color: #F2FA5A; 
+}
+
+
